@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="bookmark.png" />
+
+    <title>Bookmark</title>
+
+    <style>
+      
+    </style>
+</head>
+
+<body>
+        
+         
+
+
+       <div class="container d-flex flex-column justify-content-center align-items-center">
+        
+        <h1 class=" py-2 my-5"> Bookmarker </h1>
+        <h2 class="text-center py-2 w-100">
+            <i class="fa-solid fa-bookmark"></i>
+            Bookmark your favorite sites
+            <i class="fa-solid fa-bookmark"></i>
+        </h2>
+       </div>
+       <div class="container d-flex flex-column justify-content-center align-items-center">
+        <form class=" w-100" >
+            <label for="siteName" class="mb-2 mx-2"> <i class="fa-solid fa-book-bookmark pe-2"> </i> Site Name </label>
+            <input type="text" id="siteName" placeholder="Bookmark Name" class="form-control mb-3 w-100 ">
+
+            <label for="siteUrl" class="mb-2 mx-2"> <i class="fa-solid fa-link pe-2"> </i> Site URL </label>
+            <input type="text" id="siteUrl" placeholder="Website URL" class="form-control mb-3 w-100">
+
+            
+        </form>
+        <div class="sub w-100 text-center">
+        <button class="btn btn-outline-danger text-dark  px-5 mb-3 " id="btn" type="button"> Submit </button>
+        </div>
+
+        <table class="table my-3 text-center">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                  
+                </tr>
+            </thead>
+            <tbody id="tableRow">
+               
+            </tbody>
+        </table>
+       </div>
+    
+    <script src="main.js">  </script>
+</body>
+
+</html>
